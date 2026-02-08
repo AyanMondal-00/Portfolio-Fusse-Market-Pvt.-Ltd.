@@ -30,7 +30,7 @@ const Footer = () => {
                   href="mailto:fusemarket.tm@gmail.com" 
                   className="hover:text-[#f4b41a] transition-colors duration-300 block"
                 >
-                  fusemarket.tm@gmail.com
+                  fusemarket.fm@gmail.com
                 </a>
               </div>
               
@@ -52,7 +52,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-[#f4b41a] transition-colors duration-300"
                 >
-                  Sarojini Nagar, Kanpur Road, Lucknow
+                  Sarojni Nagar, Kanpur Road, Lucknow
                 </a>
               </div>
             </div>
