@@ -7,18 +7,17 @@ const Contact = () => {
   return (
     <>
       {/* ===== HERO / CONNECT SECTION ===== */}
-      <section className="relative w-full overflow-hidden">
+      <section className="relative w-full overflow-hidden h-65">
         <div
-          className="absolute inset-0 bg-center bg-cover"
+          className="absolute inset-0 bg-center bg-cover bg-fixed -z-10"
           style={{
             backgroundImage: `url("${bgUrl}")`,
             filter: "brightness(0.8)",
-            backgroundAttachment: 'scroll',
           }}
         />
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/65 -z-5" />
 
-        <div className="relative z-10 max-w-4xl mx-auto text-center py-16 md:py-28 px-6 min-h-[220px] flex flex-col items-center justify-center">
+        <div className="relative z-10 max-w-4xl mx-auto text-center py-16 md:py-28 px-6">
           <h2 className="text-white text-4xl font-extrabold">
             Let's Connect
           </h2>
@@ -30,8 +29,8 @@ const Contact = () => {
       </section>
 
       {/* ===== CONTACT DETAILS + FORM ===== */}
-      <section className="w-full bg-linear-to-r from-[#f8fafc] via-[#e9e9f3] to-[#f8fafc] py-10 md:py-20">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+      <section className="w-full bg-linear-to-r from-[#f8fafc] via-[#e9e9f3] to-[#f8fafc] py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
           {/* LEFT INFO */}
           <div className="flex flex-col justify-center">
@@ -80,7 +79,7 @@ const Contact = () => {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-white border border-slate-200 rounded-md shadow-xl p-6 w-full">
+          <div className="bg-white border border-slate-200 rounded-md shadow-xl p-8 w-full max-w-md mx-auto">
             <div className="h-1 bg-[#b74456]/20 rounded-full mb-6" />
             <h4 className="text-xl lg:text-2xl font-bold text-[#b74456] text-center mb-4">
               Let's Start a Conversation
