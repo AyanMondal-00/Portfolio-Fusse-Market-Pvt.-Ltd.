@@ -1,4 +1,4 @@
-import ProjectSection from "../component/projectSection.jsx";
+import ProjectSection from "../component/ProjectSection";
 import Portfolio from "../pages/Portfolio.jsx";
 import CollageCommunityPortfolio from "../pages/collageCommunityPortfolio.jsx";
 import MobileAppPortfolio from "../pages/mobileAppPortfolio.jsx";
