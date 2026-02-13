@@ -6,31 +6,23 @@ const ProjectCard = ({ title, desc, category, image, link }) => {
       href={link} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="block cursor-pointer"
+      className="block border-l-4 border-blue-500 pl-4 py-3 hover:bg-gray-50 transition-colors"
     >
-      <div className="bg-white rounded-xl shadow-md overflow-hidden
-                      transition-all duration-300
-                      hover:-translate-y-2 hover:shadow-xl h-full">
-        
-        {/* Image */}
+      <div className="flex gap-4 items-start">
         <img 
           src={image} 
           alt={title}
-          className="h-40 w-full object-cover"
+          className="w-24 h-24 object-cover rounded"
         />
-
-        {/* Content */}
-        <div className="p-5">
-          <h3 className="text-lg font-semibold text-gray-800">
+        <div className="flex-1">
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">
             {title}
           </h3>
-
-          <p className="text-sm text-gray-500 mt-2">
+          <p className="text-sm text-gray-600 mb-2">
             {desc}
           </p>
-
-          <span className="inline-block mt-4 text-2.5xl text-blue-500 font-medium">
-            ● {category}
+          <span className="text-xs text-blue-600 font-medium">
+            {category}
           </span>
         </div>
       </div>

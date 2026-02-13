@@ -1,46 +1,56 @@
-import React from 'react'
+
+import React from 'react';
 
 function ProjectSection() {
   return (
-    <section className="bg-linear-to-r from-[#d9b7e8] via-[#e06bb5] to-[#8937bd] py-3 px-6">
-      <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 bg-[#ffac1d] text-[#000000] font-bold text-sm px-6 py-3 rounded-full mb-6">
-          <span>DEVELOPMENT PORTFOLIO</span>
-        </div>
-
-        <h1 className="text-3xl font-bold mb-6">
-          <span className="text-white">Our </span>
-          <span className="text-[#ffd001]">Development Portfolio</span>
-        </h1>
-
-        <p className="text-white text-lg mb-12 max-w-3xl mx-auto">
-          Showcasing our development expertise - from dynamic websites to
-          innovative mobile applications and AI-powered platforms
+    // Background ko thoda rich blue rakha hai
+    <section className="bg-[#0052cc] py-2 px-4 text-center">
+      <div className="max-w-4xl mx-auto">
+        
+        {/* Chhota tag line upar */}
+        <p className="text-blue-200 font-bold tracking-widest text-xs uppercase mb-3">
+          Development Portfolio
         </p>
 
-        <div className="flex justify-center items-center gap-12 flex-wrap">
-          <div className="text-center">
-            <div className="text-[#ffcd07] text-3xl font-bold mb-2">8+</div>
-            <div className="text-white text-lg">Projects</div>
+        {/* Heading: 'Portfolio' word ko yellow highlight diya hai */}
+        <h2 className="text-white text-3xl md:text-5xl font-extrabold mb-6">
+          Our Development <span className="text-yellow-400">Portfolio</span>
+        </h2>
+
+        {/* Description: Iska color thoda light blue rakha hai readability ke liye */}
+        <p className="text-blue-50 text-base md:text-lg max-w-2xl mx-auto mb-12 leading-relaxed opacity-90">
+          Showcasing our development expertise — from dynamic websites to 
+          innovative mobile applications and AI-powered platforms.
+        </p>
+
+        {/* Divider: Ek simple line jo center se shuru hoti hai */}
+        <div className="w-24 h-1 bg-yellow-400 mx-auto mb-12 rounded-full"></div>
+
+        {/* Stats Row: Simple flexbox */}
+        <div className="flex flex-wrap justify-around items-center gap-8">
+          
+          {/* Stat Item 1 */}
+          <div className="flex flex-col items-center">
+            <h3 className="text-white text-4xl md:text-5xl font-black">8+</h3>
+            <p className="text-blue-200 text-sm font-semibold uppercase mt-1">Projects</p>
           </div>
 
-          <div className="h-16 w-px bg-white/30"></div>
-
-          <div className="text-center">
-            <div className="text-[#ffcd07] text-3xl font-bold mb-2">6+</div>
-            <div className="text-white text-lg">Dev Clients</div>
+          {/* Stat Item 2 */}
+          <div className="flex flex-col items-center">
+            <h3 className="text-white text-4xl md:text-5xl font-black">6+</h3>
+            <p className="text-blue-200 text-sm font-semibold uppercase mt-1">Dev Clients</p>
           </div>
 
-          <div className="h-16 w-px bg-white/30"></div>
-
-          <div className="text-center">
-            <div className="text-[#f4d03f] text-3xl font-bold mb-2">100%</div>
-            <div className="text-white text-lg">Satisfaction</div>
+          {/* Stat Item 3 */}
+          <div className="flex flex-col items-center">
+            <h3 className="text-white text-4xl md:text-5xl font-black">100%</h3>
+            <p className="text-blue-200 text-sm font-semibold uppercase mt-1">Satisfaction</p>
           </div>
+
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default ProjectSection
+export default ProjectSection;
