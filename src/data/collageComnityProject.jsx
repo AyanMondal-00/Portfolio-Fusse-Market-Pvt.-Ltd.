@@ -12,7 +12,7 @@ const collageComnityProject = [
         title: "Conventus MUN",
         desc: "Developed by our team members as part of organizing dev team",
         category: "Event Platform",
-        image: "https://fusemarket.in/assets/images/work_showcase/development/conventusmun.png",
+        image: "	https://www.conventusmun.com/_next/image?url=%2Fimages%2FConventus%20Logo.jpg&w=256&q=75",
         link: "https://www.conventusmun.com/"
     }
 ]

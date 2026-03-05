@@ -21,7 +21,7 @@ const Projects  = [
     title: "RVS Realty",
     desc: "Real estate platform developed for ₹15,000 ",
     category: "Real Estate",
-    image: "https://fusemarket.in/assets/images/work_showcase/development/rvsrealty-webpage-sample-img.png",
+    image: "	https://www.rvsrealty.com/_next/image?url=%2Fimages%2Flogo%2Flogo.png&w=1920&q=75",
     link: "https://rvsrealty.com",
   },
   {
